@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Light";
+  src: local("PoppinsLight"), url("./fonts/PoppinsLight.ttf") format("truetype");
+  font-family: "Medium";
+  src: local("PoppinsMedium"),
+    url("./fonts/PoppinsMedium.ttf") format("truetype");
+  font-family: "Regular";
+  src: local("PoppinsRegular"),
+    url("./fonts/PoppinsRegular.ttf") format("truetype");
+}
+
+:root {
+  --color-text: #afabab;
+}

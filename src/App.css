@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Medium", "Regular", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #131313;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, li a, span{
+  color: white;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.section-padding {
+  padding: 4rem 6rem;
+}
+
+.section-margin {
+  margin: 4rem 6rem;
+}
+
+.background {
+  background: url("assets/bcgg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.footer-bg {
+  background-color: #292929;
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.gaming-container {
+  display: flex;
+}
+
+.gaming-container-body {
+  padding: 0rem 3rem;
+  width: 100%;
+}
+
+.gaming-container-content{
+  /* width: calc(100% * (8 / 12)); */
+}
+
+.menu-toggle {
+  display: flex;
+  margin-top: 14px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  background-color: #191d21;
+}
+
+/* Adjust the icon size */
+.menu-toggle svg {
+  width: 24px; /* Icon width */
+  height: 24px; /* Icon height */
+}
+
+.socials-container {
+  background: #131313;
+  margin-right: -300px;
+  width: calc(100% * (4 / 12));
+}
+
+.socials-container .card {
+  background: rgba(55, 138, 214, 0.05);
+  margin-bottom: 16px;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.sub-text {
+  color: #808080;
+  font-weight: 100;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  body,
+  html {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  .section-padding {
+    padding: 0rem;
+  }
+  .section-margin {
+    margin: 0rem;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .gaming-container-body {
+    padding: 0rem 1rem;
+    
+  }
+  .section-padding {
+    padding: 0rem 2rem;
+  }
+  .section-margin {
+    margin: 0rem 2rem;
+  }
+}

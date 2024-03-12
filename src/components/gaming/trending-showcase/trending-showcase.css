@@ -1,0 +1,29 @@
+.buttonContainer{
+    margin: 32px 0;
+}
+.trending-showcase-container{
+    background-size: cover;
+    min-height: 450px;
+    height: 450px;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+.trending-showcase-container .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* max-width: 50%; */
+    background-color: rgba(0,0,0,0.5);
+    padding: 32px 16px;
+    height: 100%;
+}
+.trending-showcase-container h1{
+    font-size: 40px;
+}
+.trending-showcase-container .sub-text{
+    font-size: 12px;
+}
+
+.hashtag{
+    color: white;
+}

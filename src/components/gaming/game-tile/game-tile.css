@@ -1,0 +1,22 @@
+.game-tile-container {
+  margin-right: 64px;
+  height: 150px;
+  width: 300px;
+  border-radius: 15px;
+  margin-bottom: 40px; /* this is for shrinking the page so the third right container image doesnt overlap the first container title */
+}
+.game-tile-container h3 {
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+.gametile-container .sub-text {
+  font-size: 13px;
+}
+.game-image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

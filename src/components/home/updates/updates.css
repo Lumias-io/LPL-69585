@@ -1,0 +1,126 @@
+.updates {
+  padding: 2rem 3rem;
+  margin: 5rem;
+  background: -moz-linear-gradient(26deg, #3f557f 18%, #081246 100%);
+  background: -webkit-linear-gradient(26deg, #3f557f 18%, #081246 100%);
+  background: -o-linear-gradient(26deg, #3f557f 18%, #081246 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3F557F', endColorstr='#081246', GradientType=1 );
+  background: -ms-linear-gradient(26deg, #3f557f 18%, #081246 100%);
+  background: linear-gradient(26deg, #3f557f 18%, #081246 100%);
+  position: relative;
+  border-radius: 25px;
+}
+
+.updates-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0px 0 10px;
+}
+
+.updates-header h1 {
+  color: white;
+  font-size: 45px;
+}
+
+.updates-header button {
+  background: #0a3281;
+  border-radius: 13px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 13%;
+}
+
+.updates p {
+  color: var(--color-text);
+}
+
+.updates-container {
+  width: 100%;
+  padding-top: 40px;
+  user-select: none;
+}
+
+.updates-medium-articles {
+  display: flex;
+  gap: 25px;
+}
+
+.updates-header button:hover {
+  background: white;
+  color: #1a0c79;
+}
+
+.updates-bluemoon {
+  position: absolute;
+  top: -150px;
+  right: -4%;
+  z-index: -1;
+  filter: drop-shadow(0 0 70px #1934ff);
+  user-select: none;
+}
+
+.updates-bluemoon img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 950px) {
+  .updates {
+    padding: 2rem 2rem;
+    margin: 0rem 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .updates-header h1 {
+    font-size: 30px;
+  }
+  .updates {
+    padding: 1rem 1rem;
+    margin: 0rem 2rem;
+  }
+  .updates-header button {
+    font-size: 14px;
+    padding: 0.3rem 0.7rem;
+  }
+  .updates-container {
+    font-size: 10px;
+    padding-top: 20px;
+  }
+  .updates-medium-articles {
+    display: block;
+  }
+  .updates-bluemoon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .updates-header h1 {
+    font-size: 63px;
+  }
+  .updates p {
+    font-size: 26px;
+  }
+  .updates-container p {
+    font-size: 22px;
+  }
+  .updates-container {
+    justify-content: space-between;
+  }
+  .updates-bluemoon {
+    position: absolute;
+    top: 1660px;
+    left: 77%;
+    z-index: -1;
+  }
+}

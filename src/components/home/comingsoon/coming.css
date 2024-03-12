@@ -1,0 +1,37 @@
+.coming {
+  background: -moz-linear-gradient(90deg, #3548d2b0 0%, #4064d2b8 100%);
+  background: -webkit-linear-gradient(90deg, #3548d2b0 0%, #4064d2b8 100%);
+  background: -o-linear-gradient(90deg, #3548d2b0 0%, #4064d2b8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4064D2', endColorstr='#3548D2', GradientType=0 );
+  background: -ms-linear-gradient(90deg, #3548d2b0 0%, #4064d2b8 100%);
+  background: linear-gradient(90deg, #3548d2b0 0%, #4064d2b8 100%);
+
+  border: 3px solid #052244;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 100%;
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.coming-header h2 {
+  color: rgb(13, 26, 91);
+  font-size: 2em;
+}
+
+.coming-header p {
+  padding: 10px 5px;
+  color: var(--color-text);
+  font-size: 20px;
+  margin: 8px 0px;
+  line-height: 26px;
+}
+
+.coming-header a {
+  color: rgb(14, 16, 74);
+}

@@ -1,0 +1,21 @@
+.games-list-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly */
+    margin-bottom: 80px; /* adds margin below the game titles */   
+}
+.games-list-container a {
+    width: calc(33.33% - 20px); 
+    margin: 10px; 
+    box-sizing: border-box; 
+    width: 30%;
+}
+
+@media screen and (max-width: 430px) {
+    .games-list-container {
+        display: block;
+        justify-content: center;
+    }
+  }
+  

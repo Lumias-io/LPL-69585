@@ -1,0 +1,36 @@
+.buybutton {
+  display: flex;
+  background-color: #007bff;
+  margin-top: 15px;
+  margin-left: 40px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  transition: transform 0.3s ease;
+}
+
+.buybutton:hover {
+  background-color: #0056b3;
+}
+
+.buybutton:focus {
+  outline: none;
+}
+
+.redeembutton {
+  background-color: #1b5898;
+  margin-top: 15px;
+  margin-left: 40px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  transition: transform 0.3s ease;
+}

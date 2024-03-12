@@ -1,0 +1,16 @@
+.recently-played-tile-container {
+  margin-right: 64px;
+}
+.recently-played-tile-container h3 {
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+.recently-played-tile-container .sub-text {
+  font-size: 13px;
+}
+.recently-played-image img {
+  max-height: 150px;
+  width: 300px;
+  border-radius: 15px;
+}

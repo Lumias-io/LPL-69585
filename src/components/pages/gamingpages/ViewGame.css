@@ -1,0 +1,53 @@
+button.primary {
+  color: white;
+  background-color: #2451f0;
+  border: none;
+  border-radius: 32px;
+  padding: 8px 32px;
+}
+button.secondary {
+  color: white;
+  background-color: transparent;
+  border: solid 1px #2451f0;
+  border-radius: 32px;
+  padding: 8px 32px;
+}
+.game-details p {
+  color: #c8cde2;
+}
+
+.game-banner {
+  background-size: cover;
+  background-position-x: center;
+  width: 100%;
+  height: 570px;
+  margin-bottom: 32px;
+}
+
+.title-container {
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+
+.title-container h1 {
+  margin: 0;
+  padding: 8px 32px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.game-details {
+  padding: 1.5rem 0rem;
+}
+
+.game-details h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #1e399b;
+}
+.game-details p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
+}

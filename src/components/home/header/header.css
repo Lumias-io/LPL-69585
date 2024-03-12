@@ -1,0 +1,137 @@
+.header {
+  overflow-x: hidden;
+  user-select: none;
+}
+
+.header-image {
+  margin-bottom: 900px;
+}
+
+.galaxydust {
+  position: absolute;
+  top: 1px;
+  width: 100%;
+  z-index: 2;
+  filter: contrast(5%) brightness(5%) opacity(30%);
+}
+
+.header-image-defi {
+  position: relative;
+  left: 50%;
+}
+
+.defi-planet {
+  position: absolute;
+  top: 140px;
+  right: 40%;
+  width: 67%;
+  z-index: 3;
+  filter: drop-shadow(0 0 55px #30d9d1);
+}
+.defimoon {
+  position: absolute;
+  top: 90px;
+  right: 38%;
+  width: 100%;
+  z-index: 2;
+}
+.ast {
+  position: absolute;
+  right: 10%;
+  width: 100%;
+  z-index: 2;
+}
+
+.header-image-gamefi {
+  position: relative;
+}
+.gamefi-planet {
+  position: absolute;
+  top: 30px;
+  right: 45%;
+  width: 67%;
+  z-index: 3;
+  filter: drop-shadow(0 0 32px #444389);
+}
+.gamefi-moon {
+  position: absolute;
+  top: 430px;
+  right: 27%;
+  width: 100%;
+  z-index: 4;
+  filter: drop-shadow(0 0 20px #403df4);
+}
+.aststring {
+  position: absolute;
+  top: 130px;
+  right: 17%;
+  width: 100%;
+}
+.gamefi-rocket {
+  position: absolute;
+  top: 30px;
+  right: 33%;
+  width: 100%;
+  z-index: 4;
+}
+.gamefi-ufo {
+  position: absolute;
+  top: 160px;
+  right: 17%;
+  width: 100%;
+  z-index: 4;
+}
+
+@media screen and (max-width: 800px) {
+  .gamefi-planet {
+    width: 75%;
+    position: absolute;
+    top: 1px;
+    right: 20%;
+  }
+  .defi-planet {
+    width: 80%;
+    position: absolute;
+    top: 200px;
+    right: 37%;
+  }
+  .gamefi-moon {
+    position: absolute;
+    top: 380px;
+    right: 50%;
+    width: 13%;
+  }
+  .galaxydust,
+  .defimoon,
+  .aststring,
+  .ast {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .gamefi-planet {
+    width: 75%;
+    position: absolute;
+    top: -100px;
+    right: 20%;
+  }
+  .defi-planet {
+    width: 95%;
+    position: absolute;
+    top: 200px;
+    right: 37%;
+  }
+  .gamefi-moon {
+    position: absolute;
+    top: 210px;
+    right: 50%;
+    width: 13%;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .header-image {
+    margin-bottom: 1200px;
+  }
+}

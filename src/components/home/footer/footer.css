@@ -1,0 +1,142 @@
+.footer {
+  display: flex;
+  padding: 4rem 6rem;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.footer-info {
+  flex-wrap: wrap;
+}
+
+.footer-info-container {
+  display: flex;
+}
+
+.footer-info ul {
+  font-size: 20px;
+  color: rgb(85, 84, 84);
+}
+
+.footer-info ul:not(:nth-child(3)) {
+  margin-right: 5rem;
+  /* replace 11rem with 5rem when legel is reimplemented
+  margin-right: 5rem; */
+}
+
+.footer-info a {
+  display: flex;
+  color: var(--color-text);
+  list-style-type: none;
+  font-size: 15px;
+  padding: 5px 0px;
+}
+
+.footer a:hover {
+  color: rgb(243, 243, 243);
+  text-decoration: underline;
+}
+
+.vr {
+  text-align: center;
+  border-left: 2px solid rgb(95, 95, 95);
+  height: 200px;
+  margin-left: 100px;
+}
+
+.footer-newsletter {
+  color: var(--color-text);
+}
+.footer-newsletter h1 {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-newsletter p {
+  padding: 10px 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-newsletter input {
+  margin-top: 20px;
+  background-color: rgb(64, 64, 64);
+  color: white;
+  width: 380px;
+  height: 40px;
+  border-radius: 11px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+
+  width: 100%;
+}
+
+.footer-newsletter button {
+  cursor: pointer;
+  background: #3a3a3a;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 0.5rem 1rem;
+  margin: 0.7rem 0rem;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+.footer-newsletter-container {
+  position: relative;
+}
+
+.footer-newsletter-container-asteroid {
+  /* this for inside newsletter div */
+  position: absolute;
+  /* right: -90px;
+  bottom: 120px; */
+  right: -60px;
+  bottom: 100px;
+}
+
+.footer-end p {
+  color: white;
+  margin: -35px 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  .vr {
+    display: none;
+  }
+  .footer {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 3rem 2rem;
+  }
+  .footer-newsletter {
+    display: none;
+  }
+  .footer-end {
+    /* removes y overflow on phone screen */
+    padding: 1rem 0rem;
+  }
+  .footer-info a {
+    border-left: 2px solid rgb(136, 136, 136);
+    padding: 5px 10px;
+    margin-left: -10px;
+  }
+  .footer-info ul:not(:nth-child(3)) {
+    padding: 0rem;
+    margin-right: 3rem;
+  }
+}

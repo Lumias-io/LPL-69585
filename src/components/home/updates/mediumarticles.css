@@ -1,0 +1,10 @@
+.medium-card-container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.01s ease;
+}
+
+.medium-card-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
